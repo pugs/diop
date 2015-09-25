@@ -1,0 +1,11 @@
+
+This directory contains tools for 'diop' - Direct I/O Performance testing.
+
+diop - fully general swiss army knife of IO testing
+diop_quick - reports JSON output with quick characterization of a drive
+matrix - a comprehensive (and optionally destructive) performance characterization
+
+DEPENDENCIES:
+You need the json-c library.
+on debian: apt-get install libjson0 libjson0-dev
+on centos: yum install json-c json-c-devel
